@@ -53,7 +53,6 @@ def display_verses_and_translations(iter_range=5):
         st.markdown(translations, unsafe_allow_html=True)
         st.write("---")  # Separator between verses
 
-st.markdown("<h3 style='text-align: center'>Choose a random verse from the Quran</h3>", unsafe_allow_html=True)
 # Layout for input fields in the same row
 col1, col2, col3 = st.columns(3)
 
@@ -76,7 +75,6 @@ if st.button("Choose a random verse", key="generate_1"):
 display_text_and_translation()
 st.markdown("---")
 
-st.header("<h3 style='text-align: center'>Select verses from the Quran</h3>", unsafe_allow_html=True)
 # Layout for input fields in the same row
 col1, col2, col3, col4 = st.columns(4)
 
