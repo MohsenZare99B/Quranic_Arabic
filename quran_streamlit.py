@@ -69,7 +69,7 @@ with col3:
 ayah_range = (ayah_start, ayah_end)
 
 # Generate button to fetch a random verse
-if st.button("Generate", key="generate_1"):
+if st.button("Choose a random verse", key="generate_1"):
     generate_verse(surah_number, ayah_range)
 
 # Display generated text and translation button
